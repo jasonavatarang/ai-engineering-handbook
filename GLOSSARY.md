@@ -1,0 +1,30 @@
+# Glossary
+
+- **Agent:** A model-driven loop that dynamically chooses actions or tools to pursue a goal.
+- **Attention:** A mechanism that lets a model weight relationships among tokens when computing representations.
+- **Chunking:** Splitting source material into retrievable units.
+- **Context engineering:** Selecting, ordering, formatting, and managing information supplied to a model.
+- **Context window:** The maximum token budget available for input, tool results, reasoning state, and output.
+- **Embedding:** A numeric vector representing semantic or other learned properties of an input.
+- **Eval:** A structured test of an AI system on representative cases.
+- **Fine-tuning:** Updating model weights using task- or domain-specific training data.
+- **Foundation model:** A broadly trained model that can be adapted to many downstream tasks.
+- **Golden dataset:** A curated set of inputs with trusted labels, references, or grading criteria.
+- **Grounding:** Constraining an answer to supplied, retrievable, or verifiable evidence.
+- **Guardrail:** A policy, validator, permission, or runtime control that limits unsafe or invalid behavior.
+- **Hallucination:** Generated content unsupported by the relevant evidence or reality.
+- **Inference:** Running a trained model to produce outputs.
+- **Latency:** Time between a request and a meaningful or complete response, often tracked at percentiles.
+- **LoRA:** Low-Rank Adaptation, a parameter-efficient method for fine-tuning models.
+- **Model router:** Logic that selects a model or configuration based on task, risk, cost, or latency.
+- **Precision:** Among predicted positives, the fraction that are truly positive.
+- **Prompt injection:** Untrusted content attempting to alter an agent's instructions or actions.
+- **RAG:** Retrieval-augmented generation; retrieving evidence and giving it to a model before generation.
+- **Recall:** Among true positives, the fraction successfully identified.
+- **Reranker:** A model or algorithm that reorders retrieved candidates by relevance.
+- **Structured Outputs:** Model output constrained to a supplied schema.
+- **Temperature:** A sampling control affecting randomness; availability and recommended usage vary by model.
+- **Token:** A unit of text processed by a language model; not necessarily a whole word.
+- **Tool calling:** A model emitting a structured request for application code or an external capability to execute.
+- **Trace:** A linked record of model calls, tool calls, timing, tokens, errors, and decisions for one task.
+- **Workflow:** A mostly predetermined sequence or graph of steps, some of which may use models.

@@ -1,0 +1,2 @@
+{"case_id":"password-reset","input":"I forgot my password","required_substrings":["password-reset"],"forbidden_substrings":["your password is"]}
+{"case_id":"unknown-request","input":"Please handle the thing","required_substrings":["more information"],"forbidden_substrings":["completed"]}
