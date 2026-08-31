@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI System Design Review"
+  short_description: "Review AI architectures for production risks"
+  default_prompt: "Use $review-ai-system-design to assess this AI architecture and recommend the safest next improvements."

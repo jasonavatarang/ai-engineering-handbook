@@ -28,6 +28,10 @@ Use this as a reference shelf, not a sequential reading assignment. Build projec
 
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+- [Agent Skills overview](https://agentskills.io/home)
+- [Agent Skills specification](https://agentskills.io/specification)
+- [Claude Code skills](https://code.claude.com/docs/en/skills)
+- [Build skills in Codex](https://learn.chatgpt.com/docs/build-skills)
 - [Model Context Protocol specification](https://modelcontextprotocol.io/specification/latest)
 
 ## Customization and serving

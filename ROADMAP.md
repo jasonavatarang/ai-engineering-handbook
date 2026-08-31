@@ -80,16 +80,19 @@ Evidence:
 Learn:
 
 - Function tools, idempotency, permissions, state machines
+- Agent Skills, progressive disclosure, trigger descriptions, and portable resources
 - Workflow versus single-agent versus multi-agent decisions
 - Stop conditions, retries, budgets, and human approval
 
 Build:
 
 - [Project 3: operations agent](projects/03-tool-using-agent.md)
+- One reusable skill tested in both explicit and automatic activation cases
 
 Evidence:
 
 - Tool-choice and argument-accuracy evals
+- Skill activation precision/recall and task quality versus a no-skill baseline
 - Tests for duplicate actions and malicious tool output
 - A trace showing one recovered failure
 

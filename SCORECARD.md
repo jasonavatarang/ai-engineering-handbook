@@ -19,6 +19,7 @@ Do not award a 2 or 3 without linking evidence.
 | Prompt and context design |  |  |
 | Structured output validation |  |  |
 | Function/tool calling |  |  |
+| Agent Skill design and evaluation |  |  |
 | Retrieval and reranking |  |  |
 | Agent/workflow orchestration |  |  |
 | Offline and online evaluation |  |  |

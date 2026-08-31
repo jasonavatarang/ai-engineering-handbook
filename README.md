@@ -46,7 +46,7 @@ The core job is not prompt writing. It is designing and improving this entire lo
 | [4. Prompt and context engineering](docs/04-prompt-context-engineering.md) | Write outcome-first prompts and manage context deliberately |
 | [5. Structured outputs and tools](docs/05-structured-outputs-tools.md) | Turn model text into typed, validated software behavior |
 | [6. Retrieval and RAG](docs/06-retrieval-rag.md) | Build evidence-grounded retrieval pipelines |
-| [7. Agents and workflows](docs/07-agents-workflows.md) | Choose between code, workflows, single agents, and multi-agent systems |
+| [7. Agent skills](docs/07-agent-skills.md) and [workflows](docs/07-agents-workflows.md) | Package reusable procedures and choose between code, workflows, and agents |
 | [8. Evals and observability](docs/08-evals-observability.md) | Measure quality and debug nondeterministic systems |
 | [9. Safety and security](docs/09-safety-security.md) | Defend data, tools, users, and infrastructure |
 | [10. Production systems](docs/10-production-systems.md) | Engineer for reliability, latency, scale, and cost |
@@ -81,6 +81,7 @@ playbooks/  Repeatable operating procedures
 templates/  Task, eval, model, and threat-model documents
 projects/   Portfolio-grade build specifications
 examples/   Small runnable reference implementations
+.agents/    A working, portable Agent Skill example
 ```
 
 ## Current OpenAI references

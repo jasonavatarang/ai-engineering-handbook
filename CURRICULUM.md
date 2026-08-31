@@ -31,7 +31,7 @@ Exit test: you can build a document assistant that cites its evidence, abstains 
 
 ### Phase 3: agentic systems
 
-Study modules 7–9. Add dynamic decisions, tools, tracing, evals, and security controls.
+Study modules 7–9. Package reusable procedures as skills, then add dynamic decisions, tools, tracing, evals, and security controls.
 
 Exit test: your agent chooses the correct tool, supplies valid arguments, respects approval boundaries, and exposes enough trace data to debug failures.
 
@@ -51,6 +51,7 @@ You do not need equal depth everywhere.
 - HTTP, JSON, databases, queues, containers, CI/CD, and cloud basics
 - LLM limitations and context behavior
 - Structured outputs and tool calling
+- Agent Skill design and evaluation
 - Retrieval fundamentals
 - Task-specific evaluation
 - Observability and incident debugging

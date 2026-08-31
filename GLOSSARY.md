@@ -1,6 +1,7 @@
 # Glossary
 
 - **Agent:** A model-driven loop that dynamically chooses actions or tools to pursue a goal.
+- **Agent Skill:** A portable folder containing task-specific metadata, instructions, and optional resources that a compatible agent loads on demand.
 - **Attention:** A mechanism that lets a model weight relationships among tokens when computing representations.
 - **Chunking:** Splitting source material into retrievable units.
 - **Context engineering:** Selecting, ordering, formatting, and managing information supplied to a model.
@@ -17,12 +18,15 @@
 - **Latency:** Time between a request and a meaningful or complete response, often tracked at percentiles.
 - **LoRA:** Low-Rank Adaptation, a parameter-efficient method for fine-tuning models.
 - **Model router:** Logic that selects a model or configuration based on task, risk, cost, or latency.
+- **MCP:** Model Context Protocol; a standard for connecting AI applications to external tools and data sources.
+- **Plugin:** A distribution bundle that may contain skills, tools, hooks, configuration, or UI metadata.
 - **Precision:** Among predicted positives, the fraction that are truly positive.
 - **Prompt injection:** Untrusted content attempting to alter an agent's instructions or actions.
 - **RAG:** Retrieval-augmented generation; retrieving evidence and giving it to a model before generation.
 - **Recall:** Among true positives, the fraction successfully identified.
 - **Reranker:** A model or algorithm that reorders retrieved candidates by relevance.
 - **Structured Outputs:** Model output constrained to a supplied schema.
+- **Subagent:** An isolated agent worker with its own context, tools, or instructions that returns a result to a coordinating agent.
 - **Temperature:** A sampling control affecting randomness; availability and recommended usage vary by model.
 - **Token:** A unit of text processed by a language model; not necessarily a whole word.
 - **Tool calling:** A model emitting a structured request for application code or an external capability to execute.
